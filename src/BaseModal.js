@@ -36,6 +36,10 @@ export default {
 
     deactive () {
       this.show = false
+    },
+    
+    closeByBackground () {
+      if (closable) this.deactive()
     }
   },
 
