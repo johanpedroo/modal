@@ -39,7 +39,7 @@ export default {
     },
     
     closeByBackground () {
-      if (closable) this.deactive()
+      this.closable ? this.deactive() : false
     }
   },
 
